@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(91, 52, 110, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    background-color: #bcbcbcfb;
+    color: #333;
+  }
+
+  .button {
+    background-color: #7a3f76;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .button:hover {
+    background-color: #45a049;
+  }
+
+  .form-container {
+    text-align: center;
+  }
+
+  /* Additional styles */
+  body {
+    background-color: #f9f9f9;
+  }
+
+  .container {
+    background-color: #ddb9f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 600px;
+    }
+  }
